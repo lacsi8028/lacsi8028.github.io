@@ -73,17 +73,17 @@ blockquote {
 
   blockquote::before {
   content: '\201c';
-  color: #222;
+  color: white;
   position: absolute;
-  bottom: 85px;
+  bottom: 20px;
   left: 0;
   font-size: 140px;
   }
 
  blockquote.rows::before {
-  content: '”';
+  content: '\201c';
   position: absolute;
-  bottom: 150px;
+  bottom: 85px;
   left: 0;
   font-size: 140px;
   }
